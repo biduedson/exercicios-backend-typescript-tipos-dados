@@ -5,7 +5,7 @@ const tabuada = (arrayNumber: number[]): void => {
     for (let i = 0; i < 11; i++) {
       console.log(`${numero} x ${i} = ${numero * i}`);
     }
-    console.log("----------------");
+    console.log("---------------- \n");
   }
 };
 

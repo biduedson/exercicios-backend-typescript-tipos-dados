@@ -35,7 +35,7 @@ const filtrarUsuarios = (
   listaUsuarios: { nome: string; idade: number; status: boolean }[],
   nome: string
 ): { nome: string; idade: number; status: boolean }[] => {
-  let usuariosFiltros: { nome: string; idade: number; status: boolean }[] =
+  const usuariosFiltros: { nome: string; idade: number; status: boolean }[] =
     listaUsuarios.filter((usuario) => {
       return usuario.nome.toLowerCase().includes(nome.toLowerCase());
     });
